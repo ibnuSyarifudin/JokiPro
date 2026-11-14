@@ -17,7 +17,7 @@ section{padding:72px 0}
 .sub{color:var(--muted);max-width:60ch}
 .btn{display:inline-block;border:0;cursor:pointer;font:inherit;font-weight:700;text-decoration:none;padding:13px 24px;border-radius:10px;transition:transform .15s}
 .btn:hover{transform:translateY(-2px)}
-.btn-gold{background:linear-gradient(135deg,var(--gold),#ff9800);color:#1a1200}
+.btn-gold{background:linear-gradient(135deg,var(--sage),#ff9800);color:#1a1200}
 .btn-line{border:2px solid var(--cyan);color:var(--cyan);background:transparent}
 :focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
 
