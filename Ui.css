@@ -70,8 +70,8 @@ nav a.cta{background:var(--gold);color:#1a1200;font-weight:700;padding:8px 16px;
 /* Harga */
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}
 .tab{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:8px 18px;font:inherit;cursor:pointer}
-.tab:hover{background:var(--sage);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:8px 18px;font:inherit;cursor:pointer;top: -5px;position: relative;}
-.tab[aria-selected="true"]{background:var(--sage);color:#012b34;border-color:var(--sage);font-weight:700}
+.tab:hover{background:var(--purple);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:8px 18px;font:inherit;cursor:pointer;top: -5px;position: relative;}
+.tab[aria-selected="true"]{background:var(--cyan);color:#012b34;border-color:var(--cyan);font-weight:700}
 .prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
 .pc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column}
 .pc:hover{background:var(--card);border:2px solid yellowgreen;border-radius:14px;padding:22px;display:flex;flex-direction:column}
