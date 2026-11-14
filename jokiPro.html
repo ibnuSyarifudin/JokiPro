@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JokiPro – Jasa Joki Game Cepat, Aman &amp; Terpercaya</title>
+  <meta name="description" content="Jasa joki Mobile Legends, Valorant, Genshin Impact, Free Fire dan game lain. Pengerjaan manual, progres transparan, garansi kompensasi.">
+  <link rel="stylesheet" href="Ui.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header><div class="wrap">
+    <a class="logo" href="#home" aria-label="JokiPro">
+      <img src="hh.png" width="80" height="80">   
+    Joki<em>Pro</em></a>
+  <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#harga">Layanan &amp; Harga</a><a href="#cara">Cara Order</a>
+    <a href="#keunggulan">Keunggulan</a><a href="#testimoni">Testimoni</a><a class="cta" href="#order">Order Sekarang</a>
+  </nav>
+  </div></header>
+
+  <main>
+  <!-- HERO -->
+  <section class="hero" id="home"><div class="wrap">
+  <div>
+    <h1>Push Rank Tanpa Stres! Jasa Joki Game <span>Cepat, Aman &amp; Terpercaya</span></h1>
+    <p>Sibuk kerja atau kuliah tapi ingin rank tinggi? Serahkan ke joki profesional JokiPro. Dikerjakan manual tanpa cheat, progres bisa dipantau, dan ada garansi kompensasi.</p>
+    <div class="btns">
+    <a class="btn btn-gold" href="#order">Pesan Sekarang</a>
+    <a class="btn btn-line" id="waKonsul" href="#" target="_blank" rel="noopener">Konsultasi WA</a>
+    </div>
+    <div class="stats"><div><b>7 Game</b>tersedia</div><div><b>Manual</b>tanpa cheat</div><div><b>Garansi</b>Kompensasi</div></div>
+  </div>
+  <div class="rank" aria-hidden="true">
+    <div class="step">Epic III <small>rank awal</small></div>
+    <div class="step">Legend V <small>hari 1</small></div>
+    <div class="step">Mythic <small>hari 2</small></div>
+    <div class="step">Rank impian <small>selesai</small></div>
+  </div>
+  </div></section>
+
+  <!-- KEUNGGULAN -->
+  <section class="alt" id="keunggulan"><div class="wrap">
+  <h2>Kenapa Pilih JokiPro?</h2>
+  <p class="sub">Lima alasan pelanggan mempercayakan akunnya kepada kami.</p>
+  <div class="feat">
+    <div class="f"><div class="ic">&#127942;</div><h3>Pro Player Verified</h3><p>Setiap joki lolos seleksi rank dan rekam jejak sebelum menerima order.</p></div>
+    <div class="f"><div class="ic">&#128737;&#65039;</div><h3>Garansi Anti-Banned</h3><p>Pengerjaan manual tanpa cheat. Jika sanksi terbukti akibat metode kami, dana dikembalikan atau order dikerjakan ulang.</p></div>
+    <div class="f"><div class="ic">&#9889;</div><h3>Proses Cepat</h3><p>Estimasi waktu jelas sejak awal dan pengerjaan sesuai jadwal.</p></div>
+    <div class="f"><div class="ic">&#128065;&#65039;</div><h3>Transparan</h3><p>Progres dilaporkan lewat tangkapan layar berkala, jadi kamu bisa memantau.</p></div>
+    <div class="f"><div class="ic">&#128172;</div><h3>CS 24/7</h3><p>Admin siap menjawab pertanyaan kapan saja lewat WhatsApp.</p></div>
+  </div>
+  </div></section>
+
+  <!-- HARGA -->
+  <section id="harga"><div class="wrap">
+  <h2>Layanan &amp; Daftar Harga</h2>
+  <p class="sub">Pilih game, lalu pilih paket. Formulir pemesanan akan terisi otomatis.</p>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Pilih game"></div>
+  <div class="prices" id="prices"></div>
+  <p class="note" style="margin-top:16px">Harga bersifat contoh dan dapat berubah sesuai kondisi akun dan musim. Admin mengonfirmasi harga final sebelum pembayaran.</p>
+  </div></section>
+
+  <!-- CARA ORDER -->
+  <section class="alt" id="cara"><div class="wrap">
+  <h2>Cara Order</h2>
+  <ol class="steps">
+    <li><b>Pilih paket</b><span>Tentukan game dan paket yang kamu mau.</span></li>
+    <li><b>Isi formulir</b><span>Lengkapi data akun dan kontak WhatsApp.</span></li>
+    <li><b>Kirim via WhatsApp</b><span>Pesan tersusun otomatis dan terkirim ke admin.</span></li>
+    <li><b>Bayar &amp; pantau</b><span>Bayar sesuai instruksi admin, lalu pantau progres.</span></li>
+    <li><b>Selesai</b><span>Ganti kata sandi akunmu dan beri ulasan.</span></li>
+  </ol>
+  </div></section>
+
+  <!-- ORDER FORM -->
+  <section id="order"><div class="wrap">
+  <h2>Form Pemesanan</h2>
+  <p class="sub">Isi data berikut. Setelah klik tombol kirim, WhatsApp akan terbuka dengan pesan yang sudah tersusun rapi.</p>
+  <div class="form" id="form">
+    <div><label for="nama">Nama / Nickname Game <i>*</i></label><input id="nama" autocomplete="nickname" placeholder="Contoh: Budi"></div>
+    <div><label for="wa">Nomor WhatsApp Kamu <i>*</i></label><input id="wa" type="tel" inputmode="tel" autocomplete="tel" placeholder="Contoh: 081234567890"></div>
+    <div><label for="game">Pilih Game <i>*</i></label><select id="game"></select></div>
+    <div><label for="paket">Paket / Rank Awal &rarr; Rank Tujuan <i>*</i></label><select id="paket"></select></div>
+    <div><label for="uid">User ID &amp; Server <i>*</i></label><input id="uid" placeholder="Contoh: 12345678 (1234)"></div>
+    <div><label for="login">Jenis Login <i>*</i></label><select id="login"></select></div>
+    <div class="full"><label for="catatan">Catatan Tambahan / Request Hero (opsional)</label><textarea id="catatan" placeholder="Contoh: main hero Gusion/Lancelot, login malam hari saja"></textarea></div>
+    <div class="full sum"><span>Estimasi harga paket</span><strong id="harga-sum">Rp0</strong></div>
+    <div class="full"><div id="err" role="alert"></div>
+    <button class="btn btn-gold" id="kirim" type="button">Kirim Pesanan via WhatsApp</button>
+    <p class="note" style="margin-top:12px">Dengan memesan, kamu memahami bahwa penggunaan jasa joki dapat melanggar syarat layanan penerbit game dan risiko sanksi tetap ada. Kami menjamin pengerjaan manual tanpa cheat serta kompensasi sesuai ketentuan garansi.</p></div>
+  </div>
+  </div></section>
+
+  <!-- TESTIMONI -->
+  <section class="alt" id="testimoni"><div class="wrap">
+  <h2>Kata Mereka</h2>
+  <p class="sub">Contoh tampilan testimoni. Ganti dengan ulasan dan tangkapan layar pelanggan asli (dengan izin).</p>
+  <div class="quotes">
+    <div class="q"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Progres dikirim setiap selesai sesi, jadi saya tidak perlu menebak-nebak. Rank Mythic tercapai sesuai estimasi.</p><small>Rizky &ndash; Mobile Legends</small></div>
+    <div class="q"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Admin cepat membalas dan prosesnya jelas dari awal sampai selesai.</p><small>Dinda &ndash; Valorant</small></div>
+    <div class="q"><div class="st">&#9733;&#9733;&#9733;&#9733;&#9734;</div><p>Daily dan eksplorasi Genshin beres tanpa saya perlu grinding tiap hari.</p><small>Andi &ndash; Genshin Impact</small></div>
+  </div>
+  </div></section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer><div class="wrap">
+  <div><b style="color:var(--text)">JokiPro</b><p>Cepat, Aman, Sampai Rank Impian.</p></div>
+  <div><p>Media sosial:<br><a id="lTiktok" href="#" target="_blank" rel="noopener">TikTok</a><a id="lIg" href="#" target="_blank" rel="noopener">Instagram</a><a id="lDc" href="#" target="_blank" rel="noopener">Discord</a></p></div>
+  <div><p>Kontak admin:<br><a id="lWa" href="#" target="_blank" rel="noopener">Chat WhatsApp</a></p></div>
+  </div>
+  <div class="copy">&copy; <span id="yr">2026</span> JokiPro. Seluruh hak cipta dilindungi.</div>
+  </footer>
+  <a class="fab" id="fab" href="#" target="_blank" rel="noopener">Chat WhatsApp</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
