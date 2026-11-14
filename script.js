@@ -18,12 +18,12 @@ var GAMES = {
    {n:"Mythic Placement (10 match)",p:120000,hot:1,d:["Estimasi 8\u201312 jam","Garansi kompensasi"]},
    {n:"Epic -> Legend",p:125000,hot:0,d:["Estimasi 12\u201324 jam","Garansi kompensasi"]},
    {n:"Mythic Grading -> Mythic Honor",p:250000,hot:0,d:["Estimasi 1\u20132 hari","Joki rank tinggi","Garansi kompensasi"]},
-   {n:"Epic/star",p:6000,hot:0,d:[ "3-5 bintang 1 setengah jam", "5-10 bintang 2 setengah jam"]},
-   {n:"Legend/star",p:7000,hot:0,d:[ "3-5 bintang 1 setengah jam", "5-10 bintang 2 setengah jam"]},
-   {n:"Mithic/star",p:12000,hot:0,d:[ "3-5 bintang 2 jam", "5-10 bintang 3 setengah jam"]},
-   {n:"Mithic Honor/star",p:15000,hot:0,d:[ "3-5 bintang 2 jam", "5-10 bintang 4 jam"]},
-   {n:"Mithic Glory/star",p:21000,hot:0,d:[ "3-5 bintang 2 jam", "5-10 bintang 4 setengah jam"]},
-   {n:"Mithic Imortal/star",p:6000,hot:0,d:[]}
+   {n:"Epic/star",p:6000,hot:0,d:[ "harga per-bintang", "3-5 bintang 1 setengah jam", "5-10 bintang 2 setengah jam"]},
+   {n:"Legend/star",p:7000,hot:0,d:[ "harga per-bintang", "3-5 bintang 1 setengah jam", "5-10 bintang 2 setengah jam"]},
+   {n:"Mythic/star",p:12000,hot:0,d:[ "harga per-bintang", "3-5 bintang 2 jam", "5-10 bintang 3 setengah jam"]},
+   {n:"Mythic Honor/star",p:15000,hot:0,d:[ "harga per-bintang", "3-5 bintang 2 jam", "5-10 bintang 4 jam"]},
+   {n:"Mythic Glory/star",p:21000,hot:0,d:[ "harga per-bintang", "3-5 bintang 2 jam", "5-10 bintang 4 setengah jam"]},
+   {n:"Mythic Imortal/star",p:6000,hot:0,d:["harga per-bintang"]}
   ]},
  "Genshin Impact": {
   logins:["HoYoverse","Google","Facebook"],
