@@ -3,9 +3,9 @@
    ============================================================ */
 var CONFIG = {
   ADMIN_WA: "6282268539315",              // <-- GANTI dengan nomor WA admin, format 62 tanpa + dan tanpa 0 di depan
-  TIKTOK:   "https://www.tiktok.com/@jokipro",
-  INSTAGRAM:"https://www.instagram.com/jokipro",
-  DISCORD:  "https://discord.gg/jokipro"
+  TIKTOK:   "https://www.tiktok.com/@joki.pro52?_r=1&_t=ZS-9BOfxqhj6nN",
+  INSTAGRAM:"https://www.instagram.com/joki_pro_id?rpxt=MTBscWpxdzh3N3F1Mg==",
+  DISCORD:  ""
 };
 
 /* Data game, paket, dan jenis login (harga contoh, silakan ubah) */
